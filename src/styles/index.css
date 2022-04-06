@@ -1,0 +1,55 @@
+:root {
+  --color-white:      #fff;
+  --color-black:      #000;
+  --color-dark-grey:  #10100e;
+  --color-yellow:     #ffff00;
+  --color-blue:       #6a83fb;
+  --color-violet:     #ae72c2;
+
+  --font-size-header: 26px;
+  --font-size-subheader: 18px;
+  --font-size-main: 16px;
+  --border-radius-small: 5px;
+  --font-family-main: sans-serif;
+  --font-bold: 600;
+  --text-shadow-yellow:
+          0 0 2px var(--color-white),
+          0 0 40px var(--color-yellow);
+  --text-shadow-blue:
+          0 0 2px var(--color-white),
+          0 0 40px var(--color-blue);
+
+  --spacing-medium: 20px;
+  --spacing-large: 30px;
+  --width-max: 1200px;
+
+  --theme-default-header: #cccc46;
+  --theme-default-bgimage: url(@react_redux_course/static/bg.jpg);
+
+  --transition: .4s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-dark-grey);
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-main);
+  background-image: var(--theme-default-bgimage);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
+}
+
+img{
+  display: block;
+}
+
+.header_text{
+  line-height: 1.7;
+  font-size: var(--font-size-header);
+  text-shadow: 0 0 2px var(--color-black);
+  color: var(--theme-default-header);
+  transition: color var(--transition);
+}
