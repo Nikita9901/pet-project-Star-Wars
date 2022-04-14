@@ -1,5 +1,8 @@
 .buttons{
-    padding: 10px 20px;
-    font-size: 18px;
-    margin: 5px;
+    margin: var(--spacing-small);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
 }

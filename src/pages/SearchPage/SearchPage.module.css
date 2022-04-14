@@ -1,0 +1,17 @@
+.input{
+    /*color: var(--color-blue);*/
+    /*background-color: var(--color-violet);*/
+    /*border-color: var(--color-yellow);*/
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+.container{
+
+}
+
+.button{
+    margin: 5px;
+    border-radius: 15px;
+}
