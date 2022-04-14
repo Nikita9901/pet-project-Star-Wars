@@ -2,8 +2,9 @@ import {
   ADD_PERSON_TO_FAVORITE,
   REMOVE_PERSON_FROM_FAVORITE,
 } from "@store/constants/actionTypes";
+import { getLocalStorage } from "@react_redux_course/utils";
 
-const initialState = "Hello";
+const initialState = getLocalStorage("store");
 
 const favoriteReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -13,9 +14,9 @@ const favoriteReducer = (state = initialState, action) => {
         ...action.payload,
       };
     case REMOVE_PERSON_FROM_FAVORITE:
+      const { [action.payload]: obj, ...rest } = state;
       return {
-        ...state,
-        ...action.payload,
+        ...rest,
       };
     default:
       return state;
