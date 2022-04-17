@@ -6,12 +6,14 @@
   --color-blue:       #6a83fb;
   --color-violet:     #ae72c2;
   --color-red: #f75d83;
+  --color-light-green: #33e705;
 
   --font-size-header: 26px;
   --font-size-subheader: 18px;
   --font-size-main: 16px;
   --border-radius-small: 3px;
   --border-radius-medium: 5px;
+  --border-radius-large: 10px;
   --font-family-main: sans-serif;
   --font-bold: 600;
   --text-shadow-yellow:
@@ -39,8 +41,16 @@
 
   --width-max: 1200px;
 
-  --theme-default-header: #cccc46;
-  --theme-default-bgimage: url(@react_redux_course/static/bg.jpg);
+  /* THEMES*/
+  --theme-light-header: #dfe2df;
+  --theme-dark-header: #ca6c6f;
+  --theme-neitral-header: #cccc46;
+  --theme-default-header: var(--theme-neitral-header);
+
+  --theme-light-bgimage: linear-gradient(to left top, rgba(9,77,18,1) 8%, rgba(49,43,102,1) 43%, rgba(49,43,102,1) 68%, rgba(8,93,11,1) 98%);
+  --theme-dark-bgimage: linear-gradient(to right top, rgba(28,6,6,1) 0%, rgba(53,49,89,1) 45%, rgba(53,49,89,1) 68%, rgba(97,3,3,1) 100%);
+  --theme-neitral-bgimage: url(@react_redux_course/static/bg.jpg);
+  --theme-default-bgimage: var(--theme-neitral-bgimage);
 
   --transition: .4s;
 }

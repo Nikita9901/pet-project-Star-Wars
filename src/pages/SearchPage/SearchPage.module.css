@@ -1,10 +1,8 @@
 .input{
-    /*color: var(--color-blue);*/
-    /*background-color: var(--color-violet);*/
-    /*border-color: var(--color-yellow);*/
-    border-radius: 10px;
+    border-radius: var(--border-radius-medium);
     font-family: sans-serif;
     margin: 5px;
+    font-size: 16px;
 }
 
 .container{

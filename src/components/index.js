@@ -8,3 +8,5 @@ export {
 export { ErrorMessage } from "./ErrorMessage";
 export { Header } from "./Header";
 export { Favorite } from "./Favorite";
+export { ChooseSide } from "./HomePage";
+export { SearchPageInfo } from "./SearchPage";
