@@ -6,6 +6,7 @@ import {
   SearchPage,
   FavoritesPage,
 } from "@react_redux_course/pages";
+import { ErrorMessage } from "@react_redux_course/components";
 
 const routesConfig = [
   {
@@ -36,6 +37,11 @@ const routesConfig = [
     path: "/not-found",
     exact: true,
     element: <NotFoundPage />,
+  },
+  {
+    path: "/fail",
+    exact: true,
+    element: <ErrorMessage />,
   },
   {
     path: "*",

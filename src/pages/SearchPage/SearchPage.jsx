@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import { useEffect, useState } from "react";
-import { UiButton } from "@ui/";
+import { useCallback, useEffect, useState } from "react";
+import { debounce } from "lodash";
 import { getApiResource } from "@react_redux_course/utils";
 import { API_SEARCH } from "@react_redux_course/constants/api";
 import { withErrorApi } from "@react_redux_course/hoc";
@@ -38,10 +38,16 @@ const SearchPage = ({ setErrorApi }) => {
     getResponse("");
   }, []);
 
+  const debouncedGetResponse = useCallback(
+    debounce((value) => getResponse(value), 300),
+    []
+  );
+
   const handleInputChange = (event) => {
     const value = event.target.value;
+
     setInputSearchValue(value);
-    getResponse(value);
+    debouncedGetResponse(value);
   };
 
   return (
