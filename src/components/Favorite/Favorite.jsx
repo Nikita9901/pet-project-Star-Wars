@@ -15,7 +15,7 @@ const Favorite = () => {
 
   return (
     <div className={styles.container}>
-      <Link to="/favorites">
+      <Link to="/pet-project-Star-Wars/favorites">
         <span className={styles.counter}>{count}</span>
         <img className={styles.icon} src={icon} alt="Favorite" />
       </Link>

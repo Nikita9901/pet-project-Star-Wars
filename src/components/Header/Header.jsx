@@ -38,19 +38,19 @@ const Header = () => {
 
       <ul className={styles.list_container}>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/pet-project-Star-Wars/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/people/?page=1">People</NavLink>
+          <NavLink to="/pet-project-Star-Wars/people/?page=1">People</NavLink>
         </li>
         <li>
-          <NavLink to="/search">Search</NavLink>
+          <NavLink to="/pet-project-Star-Wars/search">Search</NavLink>
         </li>
         <li>
-          <NavLink to="/not-found">Not Found</NavLink>
+          <NavLink to="/pet-project-Star-Wars/not-found">Not Found</NavLink>
         </li>
         <li>
-          <NavLink to="/fail">Fail</NavLink>
+          <NavLink to="/pet-project-Star-Wars/fail">Fail</NavLink>
         </li>
       </ul>
       <Favorite />

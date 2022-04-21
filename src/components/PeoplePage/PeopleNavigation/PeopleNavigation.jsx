@@ -13,14 +13,14 @@ const PeopleNavigation = ({
     const handleChangePrev = () => getResource(prevPage);
     return (
         <div className={styles.container}>
-            <Link to={`/people/?page=${counterPage-1}`} className={styles.buttons}>
+            <Link to={`/pet-project-Star-Wars/people/?page=${counterPage-1}`} className={styles.buttons}>
                 <UiButton
                     // text="Previous"
                     onClick={handleChangePrev}
                     disabled={!prevPage}
                 > Previous </UiButton>
             </Link>
-            <Link to={`/people/?page=${counterPage+1}`} className={styles.buttons}>
+            <Link to={`/pet-project-Star-Wars/people/?page=${counterPage+1}`} className={styles.buttons}>
                 <UiButton
                     // text="Next"
                     onClick={handleChangeNext}

@@ -10,36 +10,36 @@ import { ErrorMessage } from "@react_redux_course/components";
 
 const routesConfig = [
   {
-    path: "/",
+    path: "/pet-project-Star-Wars/",
     exact: true,
     element: <HomePage />,
   },
   {
-    path: "/people",
+    path: "/pet-project-Star-Wars/people",
     exact: true,
     element: <PeoplePage />,
   },
   {
-    path: "/search",
+    path: "/pet-project-Star-Wars/search",
     exact: true,
     element: <SearchPage />,
   },
   {
-    path: "/favorites",
+    path: "/pet-project-Star-Wars/favorites",
     exact: true,
     element: <FavoritesPage />,
   },
   {
-    path: "/people/:id",
+    path: "/pet-project-Star-Wars/people/:id",
     element: <PersonPage />,
   },
   {
-    path: "/not-found",
+    path: "/pet-project-Star-Wars/not-found",
     exact: true,
     element: <NotFoundPage />,
   },
   {
-    path: "/fail",
+    path: "/pet-project-Star-Wars/fail",
     exact: true,
     element: <ErrorMessage />,
   },
