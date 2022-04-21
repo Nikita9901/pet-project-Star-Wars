@@ -1,1 +1,0 @@
-export { SearchPageInfo } from "./SearchPageInfo";

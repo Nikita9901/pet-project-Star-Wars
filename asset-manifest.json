@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/pet-project-Star-Wars/static/css/main.57ee1ae5.css",
+    "main.js": "/pet-project-Star-Wars/static/js/main.5d68972e.js",
+    "static/media/bg.jpg": "/pet-project-Star-Wars/static/media/bg.29b25be31315dad3ce4e.jpg",
+    "static/media/falcon.jpg": "/pet-project-Star-Wars/static/media/falcon.c1d0a8d1869b3fbdb9ab.jpg",
+    "static/media/han-solo.mp4": "/pet-project-Star-Wars/static/media/han-solo.db435084c403f6b37d4d.mp4",
+    "static/media/dark-side.jpg": "/pet-project-Star-Wars/static/media/dark-side.e0f8cab78e4bdd7db45d.jpg",
+    "static/media/light-side.jpg": "/pet-project-Star-Wars/static/media/light-side.eebc52171cd4ac0278ca.jpg",
+    "static/media/img404.png": "/pet-project-Star-Wars/static/media/img404.1062f5e41ef989b5973a.png",
+    "static/media/lightlogo.svg": "/pet-project-Star-Wars/static/media/lightlogo.93c1fd3c1cca18d8b3b2a83595a76961.svg",
+    "static/media/darklogo.svg": "/pet-project-Star-Wars/static/media/darklogo.74b083d0b630e5e7cab61f08f8d84f9b.svg",
+    "static/media/neitrallogo.svg": "/pet-project-Star-Wars/static/media/neitrallogo.737efb57656ee78be8e17f986a1063d2.svg",
+    "static/media/bookmark.svg": "/pet-project-Star-Wars/static/media/bookmark.4839f642c716b18561efa269253c2fe9.svg",
+    "static/media/loader-black.svg": "/pet-project-Star-Wars/static/media/loader-black.a47becd4c4cf79451d6d83496199c2c8.svg",
+    "static/media/loader-blue.svg": "/pet-project-Star-Wars/static/media/loader-blue.d984d6753fe8f38a9ad3e3bdb8cf7d08.svg",
+    "static/media/loader-white.svg": "/pet-project-Star-Wars/static/media/loader-white.478f022f69f507a874d7b9e1b83f4e31.svg",
+    "index.html": "/pet-project-Star-Wars/index.html",
+    "static/media/favorite.svg": "/pet-project-Star-Wars/static/media/favorite.869431159c48f09726351e2b0c3b6cb5.svg",
+    "static/media/favorite-fill.svg": "/pet-project-Star-Wars/static/media/favorite-fill.835cefbd535ce3fb1173d8ce6e0579e6.svg",
+    "main.57ee1ae5.css.map": "/pet-project-Star-Wars/static/css/main.57ee1ae5.css.map",
+    "main.5d68972e.js.map": "/pet-project-Star-Wars/static/js/main.5d68972e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57ee1ae5.css",
+    "static/js/main.5d68972e.js"
+  ]
+}
